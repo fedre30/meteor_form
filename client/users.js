@@ -9,4 +9,4 @@ Template.users.helpers
             return list.find();
         }
     }
-)
+);

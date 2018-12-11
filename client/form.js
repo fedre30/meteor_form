@@ -14,7 +14,9 @@ Template.form.events
                     email : template.find( "#email" ).value,
                     github : template.find( "#github" ).value,
                 }
-            )
+            );
+          template.find("#form").reset();
+
         }
 
     }
