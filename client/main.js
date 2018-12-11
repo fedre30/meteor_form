@@ -2,7 +2,7 @@ import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
 
 import './main.html';
-import "./main.less";
+import "./main.scss";
 import './users.html';
 import "./users.js";
 import "./form.html"

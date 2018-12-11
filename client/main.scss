@@ -1,0 +1,29 @@
+$background : #2F0601;
+
+body {
+  padding: 10px;
+  background-color: $background;
+  font-family: 'Poppins', sans-serif;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.list {
+  color: white;
+}
+
+.list-item {
+  list-style: none;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+#form {
+  margin: 2rem 3rem;
+}
+
