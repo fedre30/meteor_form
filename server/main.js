@@ -1,14 +1,16 @@
 import { Meteor } from 'meteor/meteor'
 
-import playlist from "../imports/db/playlist";
+import list from "../imports/db/list";
 
 
 Meteor.startup(() => {
-  if( playlist.find().count() <= 0 )
+  if( list.find().count() <= 0 )
   {
-    playlist.insert(
+    list.insert(
       {
-        song : "Somebody to loveeee"
+        username : "Federica Alfano",
+        email: "alfanofederica95@gmail.com",
+        github: "https://github.com/fedre30",
       }
     );
   }

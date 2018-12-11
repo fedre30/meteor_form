@@ -1,5 +1,5 @@
 import { Template } from "meteor/templating";
-import playlist from "../imports/db/playlist";
+import list from "../imports/db/list";
 
 
 Template.form.events
@@ -7,10 +7,12 @@ Template.form.events
     {
         "click #submit" : function( event, template )
         {
-            playlist.insert
+            list.insert
             (
                 { 
-                    song : template.find( "#song" ).value
+                    username : template.find( "#username" ).value,
+                    email : template.find( "#email" ).value,
+                    github : template.find( "#github" ).value,
                 }
             )
         }
